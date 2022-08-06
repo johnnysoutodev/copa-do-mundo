@@ -3,8 +3,16 @@
   "version": "1.0.0",
   "description": "Projeto de website utilizando tecnologias como HTML, CSS, JavaScript e Bootstrap. Site informativo referente a da Copa do Mundo de Futebol da FIFA do Qatar de 2022.",
   "main": "index.js",
+  "dependencies": {
+    "@popperjs/core": "^2.11.5",
+    "bootstrap": "^5.2.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnnysoutodev/copa-do-mundo.git"
   },
   "keywords": [
     "HTML5",
@@ -17,10 +25,10 @@
     "2022",
     "Qatar"
   ],
-  "author": "Johnny Souto",
-  "license": "ISC",
-  "dependencies": {
-    "@popperjs/core": "^2.11.5",
-    "bootstrap": "^5.2.0"
-  }
+  "author": "Johnny Souto <admin@johnnysouto.com.br>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnnysoutodev/copa-do-mundo/issues"
+  },
+  "homepage": "https://github.com/johnnysoutodev/copa-do-mundo#readme"
 }
